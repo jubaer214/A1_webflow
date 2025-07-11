@@ -23,6 +23,7 @@ nav{
     color: white;
     border-color: #4E47FF;
     align-items: center;
+    border-width: 0px;
 }
 
 #hSec{
@@ -101,4 +102,26 @@ nav{
     padding: 40px;
     margin-bottom: 150px;
 }
+#form-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px 0px 150px;
+    margin-bottom: 150px;
+}
 
+.btn:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    margin: 0px 500px 100px 500px;
+}
+
+#ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}

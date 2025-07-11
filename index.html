@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <h1 id="navH1">WEBFLOW</h1>
+            <h1 class="navH1">WEBFLOW</h1>
             <button class="btn">Sign Up</button>
         </nav>
         <div id="hSec">
@@ -22,7 +22,7 @@
             <div id="text">
                 <h1 id="h1action">See It in Action</h1>
                 <p id="pact">Explore the live preview and imagine your <br> brand in this bold new look.</p>
-                <div class="btn">Launch Live preview</div>
+                <div style="height: auto;" class="btn">Launch Live preview</div>
             </div>
             <img src="Assets/wc-mini.png" alt="">
         </div>
@@ -123,15 +123,30 @@
             <h1 style="font-size: 80px;">
                 Let’s Get in <br>Touch
             </h1>
-            <div id="form">
-                <label for="email">Email</label>
-                <input type="email">
+            <div class="form-content">
+                <label for="email"><b>Email</b></label><br>
+                <input style=" width: 480px; margin-bottom: 20px; border-radius: 8px; padding: 20px; border-width: 1px; border-color: darkgray" type="email" name="" id="email" placeholder="example@gmail.com"><br>
+
+                <label for="name"><b>Full Name</b></label><br>
+                <input style=" width: 480px; margin-bottom: 20px; border-radius: 8px; padding: 20px; border-width: 1px; border-color: darkgray;" type="text" name="" id="name" placeholder="Write your full name"><br>
+
+                <label for="message"><b>Message</b></label><br>
+                <textarea style="height: 70px; width: 480px; border-radius: 8px; padding: 20px;border-width: 1px; border-color: darkgray; margin-bottom: 20px" name="" id="message" placeholder="Write message here..."></textarea><br>
+                <button style="width: 520px; border-width: 0px;" class="btn">Get in Touch</button>
+
             </div>
 
         </div>
     </main>
     <footer>
-
+        <h1 class="navH1">WEBFLOW</h1>
+        <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+        <ul id="ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>How it Works</li>
+            <li>Services</li>
+        </ul>
     </footer>
 </body>
 </html>
