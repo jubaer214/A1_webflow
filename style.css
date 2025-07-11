@@ -77,7 +77,6 @@ nav{
     margin-bottom: 6px;
 }
 #review{
-    text-align: center;
     margin: 0px 130px 0px 130px;
     margin-bottom: 150px;
 }
@@ -94,7 +93,7 @@ nav{
 }
 #cards-holder{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
@@ -121,7 +120,7 @@ nav{
 
 footer{
     text-align: center;
-    padding: 100px 5px;
+    padding: 100px 500px;
     background-color: white;
 }
 
