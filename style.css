@@ -92,3 +92,13 @@ nav{
     justify-content: space-evenly;
 
 }
+
+#focus{
+    text-align: center;
+    margin: 0px 130px 0px 130px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 40px;
+    margin-bottom: 150px;
+}
+
