@@ -116,6 +116,7 @@ nav{
 .btn:hover{
     background-color: cadetblue;
     cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 footer{
@@ -128,4 +129,12 @@ footer{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+}
+
+.pic:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.rCard:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
