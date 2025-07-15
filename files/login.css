@@ -1,0 +1,33 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.login-form input{
+    margin-top: 15px;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+}
+#submit{
+    background-color: cadetblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#submit:hover{
+    background-color: rgb(108, 108, 89);
+    cursor: pointer;
+    transition-delay: 0.1s;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
